@@ -1,7 +1,7 @@
-const navToggle = document.querySelector('.nav-toggle');
-const nav = document.querySelector('.nav');
+let hb = document.querySelector(".hamburger")
+let nav = document.querySelector("nav")
 
-
-navToggle.addEventListener('click', () => {
-    nav.classList.toggle('nav--visible');
+hb.addEventListener("click",()=>{
+    nav.classList.toggle("active");
+    hb.classList.toggle("active")
 })
